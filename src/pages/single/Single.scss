@@ -1,0 +1,183 @@
+
+.instagram-modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 30px;
+
+.modal-container{
+    width: 350px;
+    
+ 
+
+.modal-box{
+  border: var(--in-border);
+  padding: 25px;
+
+
+
+.modal-header{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+
+  img{
+    width: 250px;
+  }
+  .sign-up-detail{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        color: #737373;
+
+  }
+  .login-btn-bb{
+      display: block;
+       padding: 2px 0px;
+       border: none;
+       background-color:#0095f6;
+       border-radius: 10px;
+       color: #fff;
+       font-size: 14px;
+       font-weight: 600;
+       transition: 0.4s;
+       cursor: pointer;
+
+       &:hover{
+        background-color: #056bf0;
+      } 
+     span{
+      color: #fff;
+      font-size: 23px;
+      position: relative;
+      top: 5px;
+     }  
+  }
+  .btn-or{
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 15px;
+      color: #737373;
+
+  
+
+      &::before{
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100px;
+        top: 96%;
+        left: 9%;
+        background-color: #dbdbdb;
+      }
+      &::after{
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100px;
+        top: 96%;
+        left: 57%;
+        background-color: #dbdbdb;
+      }
+  }
+}
+.modal-body{
+     margin-top: 20px;
+
+  .form-data{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+    input{
+        padding: 6px;
+        border: var(--in-border);
+        border-radius: 5px;
+        font-size: 14px;
+        color: #000000;
+        font-weight: 400;
+    }
+  }
+  .form-text{
+     text-align: center;
+     font-size: 12px;
+     font-weight: 400;
+     color: #737373;
+
+     a{
+      color: var(--in-primary);
+     }
+  }
+  .sign-up-btn{
+       padding: 5px;
+       margin-top: 10px;
+       width: 300px;
+       background-color: #4cb5f9;
+       color: #fff;
+       font-weight: 500;
+       border-radius: 5px;
+       border: none;
+  }
+}
+}
+ 
+// 2nd box
+.instagram-box-def{
+  margin-top: 15px;
+  text-align: center;
+  border: var(--in-border);
+  padding: 15px 0px;
+  border-radius: 5px;
+
+
+
+
+    p{
+      font-size: 14px;
+      color: #000000;
+      font-weight: 400;
+      a{
+        color: var(--in-primary);
+      }
+    }
+}
+// bottom part css
+
+.get-app{
+  margin-top: 22px;
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+}
+.image-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 15px;
+     margin-bottom: 50px;
+     gap : 10px;
+
+
+  .img-1{
+       width: 135px;
+  }
+  .img-2{
+    width: 105px;
+  }
+
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
