@@ -157,6 +157,36 @@
   }
 }
 
+// instagram-footer
+
+.instagram-footer{
+
+  .instagram-footer-container{
+        width: 850px;
+    ul{
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 30px;
+      li{
+        font-size: 12px;
+        font-weight: 400;
+        color: #737373;
+        a{
+          font-size: 12px;
+          font-weight: 400;
+          color: #737373;
+
+          &:hover{
+            text-decoration: underline;
+          }
+
+        }
+      }
+    }
+  }
+}
 
 
 

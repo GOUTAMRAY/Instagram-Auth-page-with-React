@@ -7,11 +7,11 @@ import Single from "../pages/single/Single";
 const publicRouter = [
    {
     path: "/",
-    element : <Home />
+    element : <Auth />
    },
    {
-    path : "/auth",
-    element : <Auth />
+    path : "/home",
+    element : <Home />
    },
    {
     path : "/single",

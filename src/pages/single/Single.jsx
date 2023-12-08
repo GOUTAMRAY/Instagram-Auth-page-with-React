@@ -30,7 +30,7 @@ const Single = () => {
              </div>
            </div>
            <div className="instagram-box-def">
-            <p>Dont have an account? <Link to="/auth"> Sign up </Link> </p>
+            <p>Have an account?  <Link to="/"> Log in </Link> </p>
           </div>
 
             <p className="get-app"> Get the app. </p>
@@ -43,6 +43,29 @@ const Single = () => {
                 </div>
               </div>
 
+        </div>
+      </div>
+
+      <div className="instagram-footer">
+        <div className="container instagram-footer-container">
+           <ul>
+            <li> <Link> Meta  </Link></li>
+            <li> <Link> About </Link></li>
+            <li> <Link> Blog </Link></li>
+            <li> <Link> Jobs </Link></li>
+            <li> <Link> Help </Link></li>
+            <li> <Link> API </Link></li>
+            <li> <Link> Privacy </Link></li>
+            <li> <Link> Terms </Link></li>
+            <li> <Link> Locations </Link></li>
+            <li> <Link> Instagram </Link></li>
+            <li> <Link> Lite Threads </Link></li>
+            <li> <Link> Contact Uploading & Non-Users </Link></li>
+            <li> <Link> Meta Verified </Link></li>
+            <li> <Link> English </Link></li>
+            <li>  © 2023 Instagram from Meta </li>
+
+           </ul>
         </div>
       </div>
     </>
