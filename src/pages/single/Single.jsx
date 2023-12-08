@@ -2,12 +2,15 @@
 import { RiFacebookBoxFill } from "react-icons/ri";
 import "./Single.scss";
 import { Link } from "react-router-dom";
+import PageHeader from "../../component/pageHeader/PageHeader";
   
 
 
 const Single = () => {
   return (
     <>
+    <PageHeader />
+
     <div className="instagram-modal">
         <div className="modal-container">
            <div className="modal-box">

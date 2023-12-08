@@ -5,13 +5,16 @@ import { Link } from "react-router-dom";
 
 import { useState } from "react";
 import Modal from "../../component/modal/Modal";
+import PageHeader from "../../component/pageHeader/PageHeader";
 
 const Auth = () => {
     const [ modal, setModal ] = useState(false);
  
   return (
     <>
-  <Modal /> 
+    <PageHeader />
+    
+    <Modal /> 
       
 
     <div className="instagram-header">
